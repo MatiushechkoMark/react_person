@@ -1,5 +1,12 @@
 export const Person = ({ person }) => {
-  const { name, age, sex, isMarried, partnerName } = person;
+  // eslint-disable-next-line prettier/prettier
+  const {
+    name,
+    age,
+    sex,
+    isMarried,
+    partnerName
+  } = person;
 
   let partnerStatus = 'I am not married';
 
